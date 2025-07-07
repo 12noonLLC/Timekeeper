@@ -1,4 +1,4 @@
-# Timekeeper by [12noon.com](https://12noon.com)
+# Timekeeper by [12noon LLC](https://12noon.com)
 
 [![MSBuild](https://github.com/skst/Timekeeper/actions/workflows/msbuild.yml/badge.svg)](https://github.com/skst/Timekeeper/actions/workflows/msbuild.yml)
 
