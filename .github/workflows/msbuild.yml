@@ -14,16 +14,16 @@ name: MSBuild
 
 on:
   workflow_dispatch:
-    branches: [master, yaml]
+    branches: [main, yaml]
   push:
-    branches: [master, yaml]
+    branches: [main, yaml]
     paths-ignore:
       - '**/*.gitignore'
       - '**/*.gitattributes'
       - '**/*.md'
       - 'LICENSE'
   pull_request:
-    branches: [master, yaml]
+    branches: [main, yaml]
     paths-ignore:
       - '**/*.gitignore'
       - '**/*.gitattributes'
