@@ -135,7 +135,7 @@
     <None Include="Shared\PMSRes.rc">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="readme.md">
+    <None Include="README.md">
       <Filter>Help Files</Filter>
     </None>
   </ItemGroup>

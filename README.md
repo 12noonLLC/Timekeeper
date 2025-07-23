@@ -7,6 +7,12 @@ task bar in your custom format.
 
 (Unfortunately, Microsoft has dropped support for desk bands when they rewrote the task bar for Windows 11.)
 
+## Additional Documentation
+
+[Overview](help/Overview.md)
+
+[Documentation](help/Documentation.md)
+
 ## .: Features :.
 
 Click on the clock with the primary mouse button to display a calendar.
@@ -50,7 +56,6 @@ ESC            | Close the calendar
 - Show week numbers
 - Remember calendar's position
 - Remember calendar's size
-
 
 ## .: Advanced Features:.
 

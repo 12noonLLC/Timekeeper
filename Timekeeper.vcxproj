@@ -352,7 +352,7 @@ rem )
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="readme.md" />
+    <None Include="README.md" />
     <None Include="res\about.ico" />
     <None Include="res\arrow_r.bmp" />
     <None Include="res\BandEnable.bmp" />
