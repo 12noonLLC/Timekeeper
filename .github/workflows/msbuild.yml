@@ -56,7 +56,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
   
       - name: Add MSBuild to PATH
         uses: microsoft/setup-msbuild@v2
@@ -113,7 +113,7 @@ jobs:
       TagPart: ${{ steps.StepTagNoV.outputs.part }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: '0'
 
@@ -150,7 +150,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       # Download publish artifact from previous job
       # https://github.com/marketplace/actions/download-a-build-artifact
@@ -225,7 +225,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: '0'
 
